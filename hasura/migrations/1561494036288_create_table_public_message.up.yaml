@@ -1,0 +1,10 @@
+- args:
+    sql: CREATE TABLE "public"."message"("id" serial NOT NULL, "user_id" bigint NOT
+      NULL, "content" text NOT NULL, "approved" boolean NOT NULL, "label" text NOT
+      NULL, "submitted_at" timestamptz NOT NULL DEFAULT now(), PRIMARY KEY ("id")
+      , UNIQUE ("id"));
+  type: run_sql
+- args:
+    name: message
+    schema: public
+  type: add_existing_table_or_view

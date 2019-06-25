@@ -1,0 +1,10 @@
+- args:
+    sql: CREATE TABLE "public"."guild_configuration"("id" bigint NOT NULL, "auto_response"
+      boolean NOT NULL DEFAULT false, "confidence_threshold" int2 NOT NULL DEFAULT
+      0.9, "prefix" text NOT NULL, "staff_role" bigint NOT NULL, PRIMARY KEY ("id")
+      , UNIQUE ("id"));
+  type: run_sql
+- args:
+    name: guild_configuration
+    schema: public
+  type: add_existing_table_or_view

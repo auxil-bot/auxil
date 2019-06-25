@@ -1,0 +1,3 @@
+- args:
+    sql: DROP TABLE "public"."guild_configuration"
+  type: run_sql

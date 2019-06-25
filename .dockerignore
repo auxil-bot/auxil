@@ -1,0 +1,7 @@
+.mypy_cache
+.vscode
+venv
+logs
+.env_template
+hasura
+.idea
