@@ -12,7 +12,6 @@ python = "^3.7"
 [tool.poetry.dev-dependencies]
 mypy = "^0.711"
 pre-commit = "^1.17"
-python-dotenv = "^0.10.3"
 
 [tool.poetry.scripts]
 start = "launcher:main"
