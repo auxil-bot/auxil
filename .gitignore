@@ -5,3 +5,4 @@ venv/
 .mypy_cache/
 auxil.egg-info
 __pycache__
+config.py

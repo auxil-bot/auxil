@@ -8,6 +8,8 @@ license = "AGPL-3.0+"
 [tool.poetry.dependencies]
 python = "^3.7"
 "discord.py" = "^1.2.2"
+ben_cogs = "^0.13.4"
+jishaku = "^1.14"
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.711"
