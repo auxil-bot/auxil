@@ -6,3 +6,4 @@ venv/
 auxil.egg-info
 __pycache__
 config.py
+.env
